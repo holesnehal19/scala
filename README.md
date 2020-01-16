@@ -4,7 +4,8 @@
 
 1. Retrieve year, month and day from current day : 
 
-```def generateYearMonthDay() :ArrayBuffer[String] =
+```scala
+def generateYearMonthDay() :ArrayBuffer[String] =
 {
   var YMD = ArrayBuffer[String]()
   val currentDate = "20200116"
@@ -17,3 +18,4 @@
 }
 ```
 2. 
+
